@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="static/stylesheets/styles.css">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+	</style>
+
+    <title>ascii art generator</title>
+</head>
+
+<body>
+<div class="main">
+	<div class="content">
+		<h1>ascii art generator</h1>
+		<h1></h1>
+
+	<form action="/result" method="POST">
+		<div class="tinput">
+			<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+			<style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); </style>
+			<p><label for="text" class="text">Your text here:</label></p>
+			<textarea id="text" name="text" rows="3" col="300" maxlength="30"></textarea>
+		</div>
+		<div class="fontpick">
+		<label for="font">Choose Font:</label></div><br>
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+			<style> @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); </style>
+		<div class="fontop" style="width:150px;">
+			<select id="font" name="font">
+				<option>?</option>
+				<option value="standard">standard</option>
+				<option value="shadow">shadow</option>
+				<option value="thinkertoy">thinkertoy</option>
+			</select>
+		</div>
+  <br>
+		<div class="button">
+			<input type="submit" value="submit">
+		</div>
+	
+		
+	</form>
+</div>
+
+</body>
+<footer></footer>
+</html>

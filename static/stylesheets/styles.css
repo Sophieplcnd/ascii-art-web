@@ -1,0 +1,187 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/beautiful-geometric-abstract-digital-art-modern-colorful_181624-61743.jpg?w=360&t=st=1673448245~exp=1673448845~hmac=ebdf7da0eb6ec8bff3b0b3706d844859c5ef65200f90de727c813d87121d5773);
+    color: #404040;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+}
+h1 {
+    color: #70A288;
+    font-size: 9vw;
+    font-family: 'Righteous', cursive;
+    line-height: 0.1rem;
+  padding-bottom: 1rem;
+
+}
+.content {
+    position: absolute;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    height: 100%;
+}
+.tinput {
+    color: rgb(255, 255, 255);
+    padding: 0 0 1rem 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* CUSTOM TEXT BOX */
+textarea {
+    background-color: rgb(228, 228, 228);
+    resize: none;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 95%;
+}
+textarea:focus {
+    border: 3px solid #FFD6C0;
+}
+
+.fontpick {
+    color: rgb(255, 255, 255);
+    padding: 0 0 1rem 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CUSTOM DROPDOWN LIST */
+.fontop,
+.fontop * {
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  box-sizing: border-box;
+}
+.fontop {
+  position: sticky;
+  left: 575px;
+  top: 500px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(228, 228, 228);
+  border-radius: 4px;
+  margin-top: 1rem;
+  padding: 10px 15px 10px 10px;
+  width: 100%;
+}
+.fontop select {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: 'Work Sans', sans-serif;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  appearance: none;
+}
+.fontop select:active, .font select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.fontop:after {
+ font-family: 'Work Sans', sans-serif;
+ max-width: 100%;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+
+/* CUSTOM SUBMIT BUTTON */
+input[type=submit] {
+    background-color: #FFB997;
+    font-weight: bold;
+    border: none;
+    font-weight: normal;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 1.5rem;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    height: 4rem;
+    width: 8rem;
+    border-radius: 4px;
+}
+input[type=submit]:hover {
+    background-color: #9CC4B2;
+    color: #FFD6C0;
+}
+
+
+/* RESULT PAGE */
+.outputp {
+    padding: 1rem 0 0 3.5rem;
+    text-align: center;
+}
+h1.resulttitle {
+    font-size: 90px;
+    text-align: center;
+}
+.result {
+    text-shadow: 2px 0 rgb(22, 17, 17), -2px 0 rgb(18, 13, 13), 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+pre {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #04395E;
+    opacity: 0.75;
+}
+.again {
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+}
+a.button {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #70A288;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    font-weight: normal;
+    margin-top: 3rem;
+    padding: 1rem 2rem 1rem 2rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+a.button:hover {
+    background-color: #04395E;
+    color: #04395E;
+}
+footer {
+    padding-bottom: 5rem;
+}
+
+
+/* FIXES FOR SMALLER BROWSERS */
+@media all and (max-width:40em){
+
+    textarea {
+        width: 9rem;
+    }
+    .content {
+        padding-left: 1.5rem;
+    }
+    .images {
+        padding-top: 5rem;
+    }
+} 
