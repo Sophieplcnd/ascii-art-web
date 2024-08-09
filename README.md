@@ -1,5 +1,7 @@
 Ascii art font generator webpage
+
 Authors : POLICAND-STAPADER
+
 Usage: use the 'localhost:8234'. 
 Type in your text to text bar. 
 Choose a font for the output.
